@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.theme-changer {
+  all: unset;
+}

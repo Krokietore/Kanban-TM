@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'assets/styles/colors';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--txt-color);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+  > * {
+    font-weight: normal;
+    font-size: 0.813rem;
+    line-height: 1.438rem;
+    box-sizing: border-box;
+  }
+
+  //TYPOGRAPHY
+  .heading {
+    &--xl {
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+    }
+
+    &--l {
+      font-weight: bold;
+      font-size: 1.125rem;
+      line-height: 1.438;
+    }
+
+    &--m {
+      font-weight: bold;
+      font-size: 0.938rem;
+      line-height: 1.188rem;
+    }
+
+    &--s {
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 0.938rem;
+    }
+  }
+
+  .body {
+    &--l {
+      font-weight: normal;
+      font-size: 0.813rem;
+      line-height: 1.438rem;
+    }
+
+    &--m {
+      font-weight: bold;
+      font-size: 0.75rem;
+      line-height: 0.938rem;
+    }
+  }
+  //TYPOGRAPHY END
+}
