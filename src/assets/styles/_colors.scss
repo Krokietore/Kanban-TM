@@ -30,3 +30,8 @@
   --background-color: var(--background-color-dark);
   --txt-color: var(--txt-color-dark);
 }
+
+[color-scheme="light"] {
+  --background-color: var(--background-color-light);
+  --txt-color: var(--txt-color-light);
+}
